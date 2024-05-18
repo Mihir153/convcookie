@@ -1,0 +1,111 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: darkblue;
+}
+.container {
+    max-width: 2500;
+    margin: 50px auto;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    padding: 20px; 
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.btn-save {
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-save:hover {
+    background-color: #0056b3;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.card {
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
